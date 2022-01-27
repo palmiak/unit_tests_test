@@ -5,6 +5,8 @@
  * @package Test1234
  */
 
+require_once '../vendor/autoload.php';
+
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 
 if ( ! $_tests_dir ) {
